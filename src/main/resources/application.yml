@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: mqttTest
+mqtt.client.client-id: ${random.uuid}
+netty:
+  default:
+    allocator:
+      max-order: 3
